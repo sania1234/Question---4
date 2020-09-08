@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "41729270360",
+    "firebase_url": "https://memonapp-fc936.firebaseio.com",
+    "project_id": "memonapp-fc936",
+    "storage_bucket": "memonapp-fc936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41729270360:android:ac3326c39383db0ba4602d",
+        "android_client_info": {
+          "package_name": "com.example.onlinecomplain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41729270360-q668nprd9t9r03pdlqa0qq7uctn71dti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnnD5z0RUYhKWnVRCNG5S_iqaA5nRDplk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41729270360-q668nprd9t9r03pdlqa0qq7uctn71dti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

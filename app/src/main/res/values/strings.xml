@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Complain App</string>
+    <string name="errormessagenaam">Enter Full Name</string>
+    <string name="errormessageemail">Enter Valid Email</string>
+    <string name="errormessagepass">Enter Password</string>
+    <string name="errormessagematch">Password Does Not Matches</string>
+    <string name="success">Successfull!</string>
+    <string name="emailhaipehle">Email Exists!</string>
+
+
+</resources>

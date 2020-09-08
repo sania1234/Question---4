@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityComplain"
+    android:background="#E391F1"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#070505"
+        android:layout_marginTop="5dp"
+        android:id="@+id/user"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:id="@+id/cate"
+        android:text=""
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Severity"
+        android:id="@+id/sev"
+        android:text=""
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:id="@+id/des"
+        android:text=""
+        android:textColor="#000"
+        />
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:id="@+id/loc"/>
+    <TextView
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginTop="2dp"
+        android:id="@+id/loci"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/ivm"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F1291"
+        android:textColor="#FFF"
+        android:id="@+id/done"
+        android:text="Capture Image"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:background="#7F1291"
+        android:id="@+id/sq"
+        android:text="Save Complain"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F1291"
+        android:textColor="#FFF"
+        android:id="@+id/savee"
+        android:text="Send Complain To Server"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F1291"
+        android:textColor="#FFF"
+        android:id="@+id/shawC"
+        android:text="See All Complains"/>
+
+
+</LinearLayout>
+
+
+

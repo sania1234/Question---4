@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/nest"
+    android:layout_height="match_parent"
+    android:background="#E391F1"
+    android:padding="20dp"
+    tools:context=".activitySignup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="#7F1291"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ename"
+            android:hint="Enter Your Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="#000"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Email"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etemail"
+            android:hint="Enter Your Email"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="#000"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pass"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/epass"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#000"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/cpass"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ecp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#000"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7F1291"
+            android:text="SIGN UP"
+            android:textColor="#FFF"
+            android:id="@+id/regi"
+            android:layout_marginTop="30dp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:id="@+id/log"
+            android:layout_marginTop="30dp"
+            android:text="Already Have an Account? Signin!"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
